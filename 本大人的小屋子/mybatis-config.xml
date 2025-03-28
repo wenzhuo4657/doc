@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--   导入数据库配置文件，自动装配数据源-->
+    <properties resource="jdbc.properties"/>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+<!--&lt;!&ndash;        映射到dao层的配置配置文件，可自行配置&ndash;&gt;-->
+<!--        <mapper resource="org/example/Dao/UserDao.xml"/>-->
+        
+<!--        一键导入所有-->
+        <package name="org.example.Dao"/>
+    </mappers>
+</configuration>
