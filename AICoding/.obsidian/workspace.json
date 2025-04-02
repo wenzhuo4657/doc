@@ -8,59 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da48ecd73f3c2020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spring-ai-alibaba-examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "spring-ai-alibaba-examples"
-            }
-          },
-          {
-            "id": "cd7fa241b87accfe",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/Pasted image 20250315085129.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250315085129"
-            }
-          },
-          {
-            "id": "4b1c69b2bcfeeee0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/Pasted image 20250315085829.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250315085829"
-            }
-          },
-          {
             "id": "238dc0a401a2dd5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring-ai-pgvector-store.md",
+                "file": "Ai基本概念.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spring-ai-pgvector-store"
+              "title": "Ai基本概念"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring-ai-pgvector-store.md",
+                "file": "Ai基本概念.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "spring-ai-pgvector-store 的大纲"
+              "title": "Ai基本概念 的大纲"
             }
           }
         ],
@@ -209,12 +170,15 @@
   },
   "active": "238dc0a401a2dd5f",
   "lastOpenFiles": [
-    "img/Pasted image 20250315085829.png",
-    "spring-ai-pgvector-store.md",
-    "img/Pasted image 20250315085129.png",
-    "spring-ai-alibaba-examples.md",
-    "img",
+    "MCP Java SDK/sdk的阅读笔记.md",
+    "Pasted image 20250402144114.png",
     "Ai基本概念.md",
+    "MCP Java SDK",
+    "spring-ai-pgvector-store.md",
+    "spring-ai-alibaba-examples.md",
+    "img/Pasted image 20250315085829.png",
+    "img/Pasted image 20250315085129.png",
+    "img",
     "img/Pasted image 20250315212434.png",
     "img/Pasted image 20250315092945.png",
     "img/Pasted image 20250315091529.png",

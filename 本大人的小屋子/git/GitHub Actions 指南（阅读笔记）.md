@@ -42,3 +42,33 @@
 
 
 
+# 编写工作流
+
+## 工作流触发器
+
+[Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+
+
+workflow_dispatch：手动触发工作流，即在github的web页面上操作
+
+
+## url请求
+**这个api文档一定要认真看！！！！**
+[REST API endpoints for workflows - GitHub Docs](https://docs.github.com/en/rest/actions/workflows?apiVersion=2022-11-28)
+
+```
+# 运行工作流
+curl -X POST \
+  -H "Authorization: token YOUR_GITHUB_TOKEN" \
+  -H "Accept: application/vnd.github.v3+json" \
+  -H "Content-Type: application/json" \
+  https://api.github.com/repos/wenzhuo4657/wenzhuo4657.github.io/actions/workflows/static.yml/dispatches \
+  -d '{
+    "ref": "main",
+    "inputs": {}
+  }'
+```
+
+
+
+

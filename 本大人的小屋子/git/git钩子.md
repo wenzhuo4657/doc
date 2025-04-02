@@ -1,3 +1,5 @@
+[GitHub WebHook 使用教程 - 程序猿阿朗 - 博客园](https://www.cnblogs.com/niumoo/p/18098155)
+
 # 概述
 git钩子本质上git提供的一系列扩展点，允许各种使用者编写各种特定名称的脚本（shell脚本等）。
 
@@ -32,4 +34,4 @@ prepare-commit-msg：提交前钩子
 | GitHub 应用程序 webhook |          |                      |
 
 服务端钩子执行流程：
-触发事件->执行钩子（发送http请求外部服务，以期待返回值？）
+触发事件->执行钩子（发送http请求外部服务。）
