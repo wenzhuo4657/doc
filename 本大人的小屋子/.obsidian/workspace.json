@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "源码阅读/tomcat.md",
+                "file": "docker/docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "tomcat"
+              "title": "docker"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "源码阅读/tomcat.md",
+                "file": "docker/docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "tomcat 的大纲"
+              "title": "docker 的大纲"
             }
           }
         ],
@@ -176,41 +176,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "02ed8c2742d24c5d",
+  "active": "e89ff216aebf033e",
   "lastOpenFiles": [
+    "docker/特定配置简记.md",
+    "docker/docker.md",
+    "java编程学习笔记/maven.md",
+    "java编程学习笔记/img/Pasted image 20250405180246.png",
+    "java编程学习笔记/rpc/rpc.md",
+    "java编程学习笔记/分布式/服务治理.md",
+    "java编程学习笔记/rpc.md",
+    "java编程学习笔记/rpc",
+    "java编程学习笔记/分布式/dubbo.md",
+    "java编程学习笔记/分布式/Dubbo原理.md",
+    "java编程学习笔记/分布式/springcloud.md",
+    "面试积累/框架.md",
+    "面试积累/数据结构和算法.md",
+    "面试积累/项目提问.md",
+    "面试积累/真实面经帖子记录.md",
+    "面试积累/真题记录.md",
+    "面试积累/字符集详解.md",
+    "面试积累/操作系统.md",
+    "面试积累/linux命令.md",
+    "面试积累/dbms.md",
+    "面试积累/java-api.md",
+    "java编程学习笔记/spi：服务发现.md",
+    "面试积累/分布式.md",
+    "源码阅读/tomcat.md",
     "安卓开发/入门.md",
     "git/GitHub Actions 指南（阅读笔记）.md",
     "java编程学习笔记/java线程池.md",
     "svm/git.md",
     "svm",
-    "svn/git.md",
     "svn",
-    "git/git钩子.md",
-    "加密/加密.md",
-    "加密/密钥.md",
-    "加密/密钥生成工具.md",
     "git/img/Pasted image 20250328155103.png",
     "git/img",
-    "java编程学习笔记/响应式编程.md",
     "GitHub",
     "java编程学习笔记/img/Pasted image 20250325151907.png",
-    "数据库学习/redis/redis：使用c语言编写的远程内存数据库.md",
-    "面试积累/dbms.md",
-    "面试积累/java-api.md",
-    "面试积累/分布式.md",
-    "面试积累/JVM.md",
-    "面试积累/字符集详解.md",
-    "面试积累/操作系统.md",
-    "面试积累/计算机网络.md",
-    "面试积累/项目提问.md",
-    "面试积累/真题记录.md",
-    "面试积累/linux命令.md",
-    "面试积累/真实面经帖子记录.md",
     "安卓开发/img/Pasted image 20250305105751.png",
-    "java编程学习笔记/maven.md",
-    "java编程学习笔记/Java FFI.md",
-    "java编程学习笔记/分布式id.md",
-    "博客日记/2024-02-27.md",
     "面试积累/img/Pasted image 20250319141217.png",
     "安卓开发/img/Pasted image 20250313110642.png",
     "安卓开发/img/Pasted image 20250311114157.png",
@@ -218,12 +220,10 @@
     "源码阅读/img/LogFactory.java",
     "源码阅读/img/Pasted image 20250310142514.png",
     "安卓开发/img/Pasted image 20250305113840.png",
-    "安卓开发/img/Pasted image 20250305111520.png",
     "安卓开发/img/AndroidManifest.xml",
     "安卓开发/img",
     "安卓开发",
     "源码阅读/img",
-    "java编程学习笔记/JDK‘",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

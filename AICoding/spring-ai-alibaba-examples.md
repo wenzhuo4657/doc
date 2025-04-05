@@ -48,3 +48,44 @@
 
 关键属于有:stt(语音转文本)，tts(文本转语音)
 
+
+
+## 自动注入mcp服务端
+
+```
+<dependency>  
+<groupId>org.springframework.ai</groupId>  
+<artifactId>spring-ai-mcp-server-spring-boot-autoconfigure</artifactId>  
+<version>1.0.0-M6</version>  
+</dependency>
+```
+
+
+方法参数自动注入，为mcp-server自动注入当前spring容器的所有ToolCallbackProvider（也就是工具的回调，可以简单理解为，我们可以通过这个实例索取到他所管理的工具方法）
+
+而同步和异步的处理，他是通过@ConditionalOnProperty判断是否存在指定的配置来选择注入。
+
+```
+@Bean  
+@ConditionalOnProperty(  
+prefix = "spring.ai.mcp.server",  
+name = {"type"},  
+havingValue = "SYNC",  
+matchIfMissing = true  
+)  
+public McpSyncServer mcpSyncServer(...){}
+
+
+@Bean  
+@ConditionalOnProperty(  
+prefix = "spring.ai.mcp.server",  
+name = {"type"},  
+havingValue = "ASYNC"  
+)  
+public McpAsyncServer mcpAsyncServer
+```
+
+值得注意的是@ConditionalOnProperty的属性havingValue的默认值在（当前版本）是false，所以默认情况下该配置使用同步的mcp服务端。
+
+
+对于webflux和stdio同理，不过他默认的是stdio.
